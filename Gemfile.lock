@@ -1,0 +1,129 @@
+GIT
+  remote: https://github.com/imathis/guard-jekyll-plus
+  revision: a847946d461198260d854f58f5b6a851f7063e6f
+  branch: master
+  specs:
+    guard-jekyll-plus (1.4.10)
+      guard (~> 1.8.3)
+      jekyll (>= 1.0.0)
+
+GIT
+  remote: https://github.com/matthodan/jekyll-asset-pipeline
+  revision: b8c6e246aeefb649956ba2c0fa0bd9be38b64453
+  branch: master
+  specs:
+    jekyll-asset-pipeline (0.1.5)
+      jekyll (>= 0.12)
+      liquid (~> 2.4)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.3.0)
+    classifier (1.3.4)
+      fast-stemmer (>= 1.0.0)
+    coderay (1.1.0)
+    colorator (0.1)
+    commander (4.1.6)
+      highline (~> 1.6.11)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    directory_watcher (1.4.1)
+    em-websocket (0.5.0)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.5.3)
+    eventmachine (1.0.3)
+    fast-stemmer (1.0.2)
+    ffi (1.9.3)
+    formatador (0.2.4)
+    fssm (0.2.10)
+    guard (1.8.3)
+      formatador (>= 0.2.4)
+      listen (~> 1.3)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-livereload (1.4.0)
+      em-websocket (>= 0.5.0)
+      guard (>= 1.8.0)
+      multi_json (~> 1.7)
+    highline (1.6.21)
+    http_parser.rb (0.5.3)
+    jekyll (1.1.1)
+      classifier (~> 1.3)
+      colorator (~> 0.1)
+      commander (~> 4.1.3)
+      directory_watcher (~> 1.4.1)
+      kramdown (~> 1.0.2)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+      pygments.rb (~> 0.5.0)
+      redcarpet (~> 2.2.2)
+      safe_yaml (~> 0.7.0)
+    jekyll-slim (0.8.2)
+      jekyll (>= 0.10.0)
+      slim
+    kramdown (1.0.2)
+    liquid (2.6.1)
+    listen (1.3.1)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
+    lumberjack (1.0.4)
+    maruku (0.7.1)
+    method_source (0.8.2)
+    multi_json (1.8.4)
+    posix-spawn (0.3.8)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    puma (2.7.1)
+      rack (>= 1.1, < 2.0)
+    pygments.rb (0.5.4)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-rewrite (1.5.0)
+    rake (10.1.1)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.3)
+      ffi (>= 0.5.0)
+    rb-kqueue (0.2.2)
+      ffi (>= 0.5.0)
+    redcarpet (2.2.2)
+    safe_yaml (0.7.1)
+    sass (3.2.14)
+    slim (2.0.2)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.4.7)
+    temple (0.6.7)
+    thor (0.18.1)
+    tilt (2.0.0)
+    yajl-ruby (1.1.0)
+    yui-compressor (0.12.0)
+    zurb-foundation (4.3.2)
+      sass (>= 3.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  guard-jekyll-plus!
+  guard-livereload
+  jekyll
+  jekyll-asset-pipeline!
+  jekyll-slim
+  puma
+  rack-contrib
+  rack-rewrite
+  rake
+  rb-fsevent
+  yui-compressor
+  zurb-foundation
