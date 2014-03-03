@@ -947,6 +947,7 @@ h1, h2, h3, h4, h5, h6 {
 			&.tumblr a:before { content: '\e012'; }
 			&.twitter a:before { content: '\e011'; }
 			&.geeklist a:before { content: '\e014'; }
+			&.gitter a:before { content: '\e600'; }
 		}
 		a {
 			font-size: emCalc(24px);

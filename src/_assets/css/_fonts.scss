@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'lxjs2013';
-	src:url('../fonts/lxjs2013.eot');
-	src:url('../fonts/lxjs2013.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/lxjs2013.woff') format('woff'),
-		url('../fonts/lxjs2013.ttf') format('truetype'),
-		url('../fonts/lxjs2013.svg#lxjs2013') format('svg');
+	src:url('../fonts/lxjs2014.eot');
+	src:url('../fonts/lxjs2014.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lxjs2014.woff') format('woff'),
+		url('../fonts/lxjs2014.ttf') format('truetype'),
+		url('../fonts/lxjs2014.svg#lxjs2014') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -71,6 +71,9 @@
 }
 .icon-geeklist:before {
 	content: "\e014";
+}
+.icon-gitter:before {
+	content: "\e600";
 }
 .icon-special:before {
 	content: "\e015";
