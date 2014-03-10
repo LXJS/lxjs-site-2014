@@ -45,9 +45,9 @@
 		content: '\e000';
 	}
 	&.alt {
-		background: $base-color;
+		background: $primary-color-dark;
 		span:after {
-			color: tint($base-color, 50%);
+			color: tint($primary-color-dark, 50%);
 		}
 	}
   &.small {
@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: emCalc(32px);
 	margin: 0 !important;
 	line-height: 1;
+	letter-spacing: 0;
 	&:before {
 		@extend .icon;
 		content: '\e013';
@@ -190,10 +191,10 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		z-index: 20;
 		color: $base-color;
-		
 	}
 	strong {
 		color: $primary-color;
+		letter-spacing: -0.05em;
 	}
 }
 
@@ -353,16 +354,8 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: emCalc(32px);
 		text-align: center;
 		margin-top: 0;
+		margin-bottom: 10px;
 		text-transform: uppercase;
-		&:after {
-			content: '';
-			display: block;
-			height: 6px;
-			background-color: $base-color;
-			width: 160px;
-			margin: 10px auto;
-			@include border-radius(3px);
-		}
 	}
 	.mod-description {
 		@include grid-column($columns: 12, $center: true);
@@ -396,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 				display: block;
 			}
 			.inner {
-				padding: 60px 0;
+				padding: 40px 0;
 				> *:last-child {
 					margin-bottom: 0;
 				}
@@ -431,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 				margin: 0 20px;
 				&:before {
 					@extend .icon;
-					color: $base-color;
+					color: $primary-color-dark;
 					font-size: 32px;
 					vertical-align: top;
 					margin-right: 8px;
@@ -1024,7 +1017,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 		.form-bttn {
 			border: 0;
-			background: $base-color;
+			background: $primary-color-dark;
 			font-size: emCalc(20px);
 			font-weight: $body-font-bold;
 			color: #fff;
