@@ -737,7 +737,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #fff;
 	padding: 10px;
 	@include border-radius(50%);
-	border: 10px solid tint($primary-color, 85%);
+	border: 10px solid tint($base-color, 85%);
 	max-width: 220px;
 	&.workshop {
 		max-width: 180px;
