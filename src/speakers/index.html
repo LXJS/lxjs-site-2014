@@ -14,23 +14,24 @@ title: Speakers • LXJS 2014
 	
 	<div class="mod-body">
 		<ul class="entry-list speakers">
-			<li class="entry-preview">
-				<article class="entry">
-					<a href="feross_aboukhadijeh.html" title="Visit Feross Aboukhadijeh page" class="block">
-						<figure class="entry-cover-wrapper">
-							<img src="../img/thumb-speaker-feross-aboukhadijeh.jpg" alt="Photo of Feross Aboukhadijeh" width="300" height="300" />
-						</figure>
-						<h1 class="entry-prime-title">Feross Aboukhadijeh</h1>
-					</a>
-					<dl class="entry-meta">
-						<dt>Details</dt>
-						<dd class="subtitle">Mad scientist, PeerCDN</dd>
-						<dd class="twitter"><a target="_blank" href="http://twitter.com/feross" title="Visit Feross Aboukhadijeh on twitter">@feross</a></dd>
-					</dl>
-				</article>
-			</li>
+			{% for speaker in site.speakers %}
+				<li class="entry-preview">
+					<article class="entry">
+						<a href="{{ speaker.machine_name }}.html" title="Visit {{ speaker.name }} page" class="block">
+							<figure class="entry-cover-wrapper">
+								<img src="../img/thumb-speaker-{{ speaker.machine_name }}.jpg" alt="Photo of {{ speaker.name }}" width="300" height="300" />
+							</figure>
+							<h1 class="entry-prime-title">{{ speaker.name }}</h1>
+						</a>
+						<dl class="entry-meta">
+							<dt>Details</dt>
+							<dd class="subtitle">{{ speaker.title }}</dd>
+							<dd class="twitter"><a target="_blank" href="http://twitter.com/{{ speaker.twitter }}" title="Visit {{ speaker.name }} on twitter">{{ speaker.twitter }}</a></dd>
+						</dl>
+					</article>
+				</li>
+			{% endfor %}
 		</ul>
 	</div>
-
 </section>
 <!--/ site-body -->

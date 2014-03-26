@@ -12,3 +12,13 @@ asset_pipeline:
   output_path: assets
   display_path: assets
   gzip: false
+
+speakers:
+  - name: Feross Aboukhadijeh
+    machine_name: feross_aboukhadijeh
+    title: Mad scientist, PeerCDN
+    twitter: feross
+  - name: Tom Ashworth
+    machine_name: tom_ashworth
+    title: Front-end engineer, Twitter
+    twitter: phuunet
