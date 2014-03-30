@@ -18,6 +18,10 @@ speakers:
     machine_name: feross_aboukhadijeh
     title: Mad scientist, PeerCDN
     twitter: feross
+  - name: Martin Boßlet
+    machine_name: martin_bosslet
+    title: Independent developer
+    twitter: _emboss_
   - name: Tom Ashworth
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
