@@ -22,3 +22,9 @@ speakers:
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
     twitter: phuunet
+
+sponsors:
+  async:
+    - name: Microsoft
+      logo: logo-sponsor-microsoft.png
+      url: http://www.microsoft.com/

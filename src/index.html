@@ -58,9 +58,45 @@ title: LXJS 2014
 	</section>
 	<!--/ speakers-featured -->
 
+	<!-- sponsors -->
+	<section class="mod" id="sponsors">
+		<header class="mod-head">
+			<div class="inner">
+				<h1 class="mod-prime-title">Thanks to our Sponsors</h1>
+				<p class="mod-description">We couldn't make this happen without them. <a class="cta-inline break" href="mailto:hello@lxjs.org" title="Send email">Join the list</a></p>
+			</div>
+		</header>
+		
+		<div class="mod-body">
+			<section class="asynchronous clearfix">
+				<h1>Asynchronous</h1>
+				<ul class="logo-list sponsors">
+					{% for sponsor in site.sponsors.async %}
+						<li class="logo-wrapper">
+							<a target="_blank" href="{{ sponsor.url }}" title="Visit {{ sponsor.name }}"><img src="img/{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="270" height="150" /></a>
+						</li>
+					{% endfor %}
+				</ul>
+			</section>
+			<section class="official-hotel clearfix">
+				<h1>Official Hotel</h1>
+				<ul class="logo-list sponsors">
+					<li class="logo-wrapper">
+						<a target="_blank" href="http://hotel-florida.pt" title="Visit Hotel Florida website"><img src="img/logo-sponsor-hotel-florida.png" alt="Hotel Florida" width="270" height="150" /></a>
+					</li>
+				</ul>
+			</section>
+			<section class="co-organizer clearfix">
+				<h1>Co-Organizer</h1>
+				<ul class="logo-list sponsors">
+					<li class="logo-wrapper">
+						<a target="_blank" href="http://quodis.com" title="Visit Quodis website"><img src="img/logo-sponsor-quodis.png" alt="Quodis" width="270" height="150" /></a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+	<!--/ sponsors -->
+
 </section>
 <!--/ site-body -->
-
-{% for post in site.posts %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}

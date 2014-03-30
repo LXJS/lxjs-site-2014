@@ -542,12 +542,12 @@ h1, h2, h3, h4, h5, h6 {
 		}
 		&.asynchronous {
 			.logo-list a {
-				border-color: tint($base-color, 0%);
+				// border-color: tint($base-color, 0%);
 			}
 		}
 		&.synchronous {
 			.logo-list a {
-				border-color: tint($base-color, 50%);
+				// border-color: tint($base-color, 50%);
 			}
 		}
 	}
@@ -559,8 +559,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	a {
 		@include border-radius(4px);
-		border: 2px solid tint($primary-color, 85%);
-		padding: 5px;
+		// border: 2px solid tint($primary-color, 85%);
+		// padding: 5px;
 		display: block;
 	}
 	img {
