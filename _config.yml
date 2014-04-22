@@ -22,6 +22,10 @@ speakers:
     machine_name: martin_bosslet
     title: Independent developer
     twitter: _emboss_
+  - name: Mike Brevoort
+    machine_name: mike_brevoort
+    title: Chief Architect of Innovation and Advanced Development, Pearson HigherEd
+    twitter: mbrevoort
   - name: Roger Wang
     machine_name: roger_wang
     title: Creator and maintainer, node-webkit project
