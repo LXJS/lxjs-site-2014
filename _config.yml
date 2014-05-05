@@ -14,6 +14,10 @@ asset_pipeline:
   gzip: false
 
 speakers:
+  - name: Charlie Robbins
+    machine_name: charlie_robbins
+    title: Founder, CEO. Nodejitsu
+    twitter: indexzero
   - name: Feross Aboukhadijeh
     machine_name: feross_aboukhadijeh
     title: Mad scientist, PeerCDN
