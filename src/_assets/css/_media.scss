@@ -171,11 +171,15 @@
 	
 	.entry-list {
 		&.speakers,
-		&.team,
 		&.sections {
 			/* @include block-grid(4, 15px, true); */
 			> li {
 				@include grid-column($columns: 3);
+			}
+		}
+		&.team {
+			> li {
+				@include grid-column($columns: 4);
 			}
 		}
 	}

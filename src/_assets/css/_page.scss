@@ -795,6 +795,12 @@ h1, h2, h3, h4, h5, h6 {
 			margin-right: -2px;
 		}
 	}
+	&.team {
+		text-align: center;
+		> li {
+			@include grid-column($columns: 6);
+		}
+	}
 	.entry-meta {
 		margin-top: 10px;
 		dt {
