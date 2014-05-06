@@ -41,6 +41,9 @@ speakers:
 
 sponsors:
   async:
+    - name: Blip
+      logo: logo-sponsor-blip.png
+      url: http://www.blip.pt/
     - name: Microsoft
       logo: logo-sponsor-microsoft.png
       url: http://www.microsoft.com/
