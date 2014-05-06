@@ -38,6 +38,10 @@ speakers:
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
     twitter: phuunet
+  - name: Wyatt Preul
+    machine_name: wyatt_preul
+    title: Software Architect
+    twitter: wpreul
 
 sponsors:
   async:
