@@ -38,6 +38,10 @@ speakers:
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
     twitter: phuunet
+  - name: Tracy Hinds
+    machine_name: tracy_hinds
+    title: PDXNode|CascadiaJS organizer, Web Engineer, Urban Airship
+    twitter: HackyGoLucky
   - name: Wyatt Preul
     machine_name: wyatt_preul
     title: Software Architect
