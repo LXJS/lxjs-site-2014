@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 25px 0 0 0;
 	@include grid-column($columns: 12);
 	border: 0;
-	background: $base-color;
+	background: $primary-color-dark;
 	font-size: emCalc(20px);
 	font-weight: $body-font-bold;
 	color: #fff;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 24px;
 		color: #fff;
 		content: '\e01d';
-		color: tint($base-color, 50%);
+		color: $primary-color;
 	}
 }
 
