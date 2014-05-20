@@ -14,6 +14,10 @@ asset_pipeline:
   gzip: false
 
 speakers:
+  - name: Brittany Storoz
+    machine_name: brittany_storoz
+    title: Interactive Developer, New York Times
+    twitter: brittanystoroz
   - name: Charlie Robbins
     machine_name: charlie_robbins
     title: Founder, CEO. Nodejitsu
