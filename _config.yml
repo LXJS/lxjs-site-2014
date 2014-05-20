@@ -14,6 +14,10 @@ asset_pipeline:
   gzip: false
 
 speakers:
+  - name: Addy Osmani
+    machine_name: addy_osmani
+    title: Senior Engineer In Developer Relations, Google
+    twitter: addyosmani
   - name: Brittany Storoz
     machine_name: brittany_storoz
     title: Interactive Developer, New York Times
