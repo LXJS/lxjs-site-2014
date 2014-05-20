@@ -68,6 +68,16 @@ title: LXJS 2014
 					{% endfor %}
 				</ul>
 			</section>
+			<section class="synchronous clearfix">
+				<h1>Synchronous</h1>
+				<ul class="logo-list sponsors">
+					{% for sponsor in site.sponsors.sync %}
+						<li class="logo-wrapper">
+							<a target="_blank" href="{{ sponsor.url }}" title="Visit {{ sponsor.name }}"><img src="img/{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="270" height="150" /></a>
+						</li>
+					{% endfor %}
+				</ul>
+			</section>
 			<section class="official-hotel clearfix">
 				<h1>Official Hotel</h1>
 				<ul class="logo-list sponsors">

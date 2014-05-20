@@ -55,3 +55,7 @@ sponsors:
     - name: Microsoft
       logo: logo-sponsor-microsoft.png
       url: http://www.microsoft.com/
+  sync:
+    - name: Digital Ocean
+      logo: logo-sponsor-digitalocean.png
+      url: https://www.digitalocean.com
