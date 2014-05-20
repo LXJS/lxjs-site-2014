@@ -34,6 +34,10 @@ speakers:
     machine_name: roger_wang
     title: Creator and maintainer, node-webkit project
     twitter: wwr
+  - name: Tim Park
+    machine_name: tim_park
+    title: Open platforms and Internet of Things, Microsoft
+    twitter: timpark
   - name: Tom Ashworth
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
