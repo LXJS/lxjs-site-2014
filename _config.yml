@@ -50,6 +50,10 @@ speakers:
     machine_name: roger_wang
     title: Creator and maintainer, node-webkit project
     twitter: wwr
+  - name: Soledad Penadés
+    machine_name: soledad_penades
+    title: Senior HTML5 Engineer
+    twitter: supersole
   - name: Tim Park
     machine_name: tim_park
     title: Open platforms and Internet of Things, Microsoft
