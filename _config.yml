@@ -30,6 +30,10 @@ speakers:
     machine_name: charlie_robbins
     title: Founder, CEO. Nodejitsu
     twitter: indexzero
+  - name: Dominic Tarr
+    machine_name: dominic_tarr
+    title: Chaotic God
+    twitter: dominictarr
   - name: Feross Aboukhadijeh
     machine_name: feross_aboukhadijeh
     title: Mad scientist, PeerCDN
