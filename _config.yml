@@ -79,6 +79,9 @@ sponsors:
     - name: Microsoft
       logo: logo-sponsor-microsoft.png
       url: http://www.microsoft.com/
+    - name: Sapo
+      logo: logo-sponsor-sapo.png
+      url: http://www.sapo.pt/
   sync:
     - name: Digital Ocean
       logo: logo-sponsor-digitalocean.png
