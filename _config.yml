@@ -22,6 +22,10 @@ speakers:
     machine_name: angie_maguire
     title: Head of Communications, Mint Digital and Founder, Ladies Who Code
     twitter: lalamaguire
+  - name: Ben Acker
+    machine_name: ben_acker
+    title: Developer, Walmartlabs
+    twitter: nvcexploder
   - name: Brittany Storoz
     machine_name: brittany_storoz
     title: Interactive Developer, New York Times
