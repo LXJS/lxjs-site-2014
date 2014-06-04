@@ -46,6 +46,10 @@ speakers:
     machine_name: jonathan_lipps
     title: Director of Ecosystem & Integrations / Sauce Labs
     twitter: jlipps
+  - name: Julian Grubber
+    machine_name: julian_grubber
+    title: Software Engineer
+    twitter: juliangruber
   - name: Martin Boßlet
     machine_name: martin_bosslet
     title: Independent developer
