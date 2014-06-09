@@ -115,3 +115,11 @@ sponsors:
     - name: Sauce Labs
       logo: logo-sponsor-saucelabs.png
       url: https://saucelabs.com/
+  promise:
+    - name: O'Reilly Media
+      logo: logo-sponsor-oreilly.png
+      url: http://www.oreilly.com/
+  thankyou:
+    - name: we are one
+      logo: logo-sponsor-weareone.png
+      url: http://weareone.pt/
