@@ -19,11 +19,11 @@
 .cta-bttn {
 	min-width: 220px;
 	min-height: 50px;
-	line-height: 50px;
+	line-height: 30px;
 	background: $primary-color;
 	color: #fff;
 	font-weight: $body-font-bold;
-	padding: 0 30px;
+	padding: 10px 30px;
 	@include border-radius(25px);
 	font-size: emCalc(24px);
 	text-align: center;
@@ -547,6 +547,7 @@ h1, h2, h3, h4, h5, h6 {
 	section {
 		display: block;
 		margin: 0 0 10px -3px;
+		clear: left;
 		> h1 {
 			font-size: emCalc(14px);
 			color: tint($base-color, 30%);
@@ -567,8 +568,10 @@ h1, h2, h3, h4, h5, h6 {
 		&.video,
 		&.official-hotel,
 		&.co-organizer,
+		&.promise,
 		&.music {
 			float: left;
+			clear: none;
 		}
 		&.asynchronous {
 			.logo-list a {
