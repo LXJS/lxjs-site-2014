@@ -106,6 +106,9 @@ sponsors:
     - name: Digital Ocean
       logo: logo-sponsor-digitalocean.png
       url: https://www.digitalocean.com
+    - name: Meteor
+      logo: logo-sponsor-meteor.png
+      url: https://www.meteor.com/
     - name: MongoDB
       logo: logo-sponsor-mongodb.png
       url: http://www.mongodb.org/
