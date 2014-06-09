@@ -29,8 +29,23 @@ title: LXJS 2014
 	</div> -->
 	<!--/ highlights -->
 
+	<div id="speakers-overview">			
+		<header class="mod-head">
+			<div class="inner">
+				<h1 class="mod-prime-title">Amazing Speakers and Trainers</h1>
+				<p class="mod-description">These are the ones we already announced. Even more on the way! <a class="cta-inline break" href="speakers">Full list</a></p>
+			</div>
+		</header>
+		
+		<div class="mod-body">
+			{% for speaker in site.speakers %}
+				<a href="{{ speaker.machine_name }}.html" title="Visit {{ speaker.name }} page">
+					{{ speaker.name }}
+				</a>
+			{% endfor %}
+		</div>
+	</div>
 
-	
 	<!-- tweets -->
 	<div id="tweets">
 		<ul>

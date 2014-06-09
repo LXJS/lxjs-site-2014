@@ -502,6 +502,22 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+#speakers-overview {
+	.mod-body {
+		text-align: center;
+		a {
+			font-size: emCalc(22px);
+			line-height: 1.4;
+		}
+		a:after {
+			content: ' - '
+		}
+		a:last-child:after {
+			content: ''
+		}
+	}
+}
+
 #sponsors {
 	.mod-body {
 		padding-left: 20px;
