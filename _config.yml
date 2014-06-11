@@ -94,6 +94,10 @@ speakers:
     machine_name: tracy_hinds
     title: PDXNode|CascadiaJS organizer, Web Engineer, Urban Airship
     twitter: HackyGoLucky
+  - name: Van Nguyen
+    machine_name: van_nguyen
+    title: Lead Engineer, WalmartLabs.
+    twitter: thegoleffect
   - name: Wyatt Preul
     machine_name: wyatt_preul
     title: Software Architect
