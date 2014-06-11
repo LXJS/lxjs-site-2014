@@ -54,6 +54,10 @@ speakers:
     machine_name: julian_grubber
     title: Software Engineer
     twitter: juliangruber
+  - name: Kevin Sawicki
+    machine_name: kevin_sawicki
+    title: Developer, GitHub
+    twitter: kevinsawicki
   - name: Martin Boßlet
     machine_name: martin_bosslet
     title: Independent developer
