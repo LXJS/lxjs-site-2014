@@ -62,6 +62,10 @@ speakers:
     machine_name: martin_bosslet
     title: Independent developer
     twitter: _emboss_
+  - name: Matteo Collina
+    machine_name: matteo_collina
+    title: Maintainer / MQTT.js, node-coap, Mosca, Ponte
+    twitter: matteocollina
   - name: Mike Brevoort
     machine_name: mike_brevoort
     title: Chief Architect of Innovation and Advanced Development, Pearson HigherEd
