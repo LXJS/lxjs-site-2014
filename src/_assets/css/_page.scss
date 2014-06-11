@@ -975,6 +975,7 @@ h1, h2, h3, h4, h5, h6 {
 			margin-bottom: 20px;
 			&.team a:before { content: '\e01a'; }
 			&.about a:before { content: '\e005'; }
+			&.yearbook a:before { content: '\e601'; }
 			&.code a:before { content: '\e003'; }
 			&.tumblr a:before { content: '\e012'; }
 			&.twitter a:before { content: '\e011'; }
