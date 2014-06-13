@@ -74,6 +74,10 @@ speakers:
     machine_name: mike_brevoort
     title: Chief Architect of Innovation and Advanced Development, Pearson HigherEd
     twitter: mbrevoort
+  - name: Oli Evans
+    machine_name: oli_evans
+    title: Code & community wrangler, (╯°□°）╯︵ TABLEFLIP
+    twitter: olizilla
   - name: Roger Wang
     machine_name: roger_wang
     title: Creator and maintainer, node-webkit project
