@@ -70,6 +70,10 @@ speakers:
     machine_name: matteo_collina
     title: Maintainer / MQTT.js, node-coap, Mosca, Ponte
     twitter: matteocollina
+  - name: Max Bruning
+    machine_name: max_bruning
+    title: Training Director, Joyent
+    twitter: mrbruning
   - name: Mike Brevoort
     machine_name: mike_brevoort
     title: Chief Architect of Innovation and Advanced Development, Pearson HigherEd
