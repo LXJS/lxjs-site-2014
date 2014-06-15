@@ -22,6 +22,10 @@ speakers:
     machine_name: alan_shaw
     title: Node.js web developer
     twitter: _alanshaw
+  - name: Alex Potsides
+    machine_name: alex_potsides
+    title: Developer, robot wrangler
+    twitter: achingbrain
   - name: Angie Maguire
     machine_name: angie_maguire
     title: Head of Communications, Mint Digital and Founder, Ladies Who Code
