@@ -152,6 +152,9 @@ sponsors:
       logo: logo-sponsor-pearson.png
       url: http://www.pearson.com/
   thankyou:
+    - name: Cloudup
+      logo: logo-sponsor-cloudup.png
+      url: https://cloudup.com/
     - name: Google
       logo: logo-sponsor-google.png
       url: http://google.com/
