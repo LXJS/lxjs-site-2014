@@ -149,6 +149,9 @@ sponsors:
       logo: logo-sponsor-saucelabs.png
       url: https://saucelabs.com/
   promise:
+    - name: ^Lift
+      logo: logo-sponsor-lift.png
+      url: https://liftsecurity.io/
     - name: O'Reilly Media
       logo: logo-sponsor-oreilly.png
       url: http://www.oreilly.com/
