@@ -106,6 +106,10 @@ speakers:
     machine_name: tim_park
     title: Open platforms and Internet of Things, Microsoft
     twitter: timpark
+  - name: TJ Fontaine
+    machine_name: tj_fontaine
+    title: Node.js Project Lead, Joyent
+    twitter: tjfontaine
   - name: Tom Ashworth
     machine_name: tom_ashworth
     title: Front-end engineer, Twitter
