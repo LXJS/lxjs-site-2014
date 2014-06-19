@@ -152,6 +152,9 @@ sponsors:
       logo: logo-sponsor-saucelabs.png
       url: https://saucelabs.com/
   promise:
+    - name: Aptoide
+      logo: logo-sponsor-aptoide.png
+      url: http://www.aptoide.com/
     - name: ^Lift
       logo: logo-sponsor-lift.png
       url: https://liftsecurity.io/
