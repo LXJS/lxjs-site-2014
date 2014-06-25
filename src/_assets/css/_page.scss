@@ -586,6 +586,9 @@ h1, h2, h3, h4, h5, h6 {
 				// border-color: tint($base-color, 50%);
 			}
 		}
+		&.thankyou {
+			max-width: 500px;
+		}
 	}
 }
 
