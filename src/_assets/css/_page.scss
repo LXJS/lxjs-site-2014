@@ -361,6 +361,9 @@ h1, h2, h3, h4, h5, h6 {
 		.wrapper {
 			@include grid-column($columns: 12);
 		}
+		a {
+			color: white;
+		}
 	}
 	.mod-prime-title {
 		@include grid-column($columns: 12, $center: true);
@@ -1256,5 +1259,19 @@ h1, h2, h3, h4, h5, h6 {
 		.day {
 			@include grid-column($columns: 12);
 		}
+	}
+}
+
+img.inline {
+	padding: 10px;
+	box-shadow: 1px 1px 6px #BBBBBB;
+	margin: 0 0 1rem 0;
+}
+
+@media #{$small} {
+	img.inline {
+		float: right;
+		max-width: 300px;
+		margin: 0 0 1rem 1rem;
 	}
 }
