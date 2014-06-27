@@ -361,9 +361,6 @@ h1, h2, h3, h4, h5, h6 {
 		.wrapper {
 			@include grid-column($columns: 12);
 		}
-		a {
-			color: white;
-		}
 	}
 	.mod-prime-title {
 		@include grid-column($columns: 12, $center: true);
@@ -944,6 +941,10 @@ h1, h2, h3, h4, h5, h6 {
 	}	
 }
 
+#site-body > .mod-head a {
+	color: white;
+}
+
 #site-foot {
 	background: $primary-color;
 	color: #fff;
@@ -1277,4 +1278,18 @@ img.inline {
 		max-width: 300px;
 		margin: 0 0 1rem 1rem;
 	}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
